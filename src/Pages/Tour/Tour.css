@@ -1,0 +1,113 @@
+.tour-div{
+    position: relative;
+}
+
+.tour-content{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.tour-content .tour-heading{
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.tour-content .tour-heading span{
+    color: #333333;
+}
+
+.tour-content .tour-heading span:first-child{
+    color: #04736A;
+}
+
+.tour-content p{
+    font-size: 20px;
+    color: #333333;
+}
+
+.action-tour-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background: #04736A;
+    color: #fff;
+    cursor: pointer;
+}
+
+.disable-tour-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background: #002820;
+    color: #fff;
+}
+
+.tour-grid{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tour-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.tour-slider-dot{
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    border: 2px solid #04736A;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.tour-slider-active-dot{
+    height: 13px;
+    width: 13px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background: #04736A;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.tour-left-btn{
+    position: absolute;
+    top: 350px;
+    left: 70px;
+}
+
+.tour-right-btn{
+    position: absolute;
+    top: 350px;
+    right: 70px;
+}
+
+.tour-view-btn{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.tour-view-btn button{
+    background: #002820;;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px 50px;
+    border-radius: 30px;
+    border: #002820;
+    text-align: center;
+}

@@ -1,0 +1,138 @@
+.plans-grid .active-plan{
+    height: 400px;
+    width: 345px;
+    color: #fff ;
+    border-radius: 10px;
+}
+
+.plans-grid .plan-card{
+    height: 400px;
+    width: 345px;
+    color: #333333;
+    border-radius: 10px;
+}
+
+.plan-upper-div {
+    width: 100%;
+    height: 200px;
+    margin-top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+
+.plan-upper-div .feature-tag{
+    display: block;
+    float: right;
+    right: 0;
+    margin-top: 15px;
+    font-size: 11px;
+    padding: 2px 20px;
+    background: #C90012;
+    color: #fff;
+}
+
+.disable-feature-tag{
+    display: block;
+    float: right;
+    right: 0;
+    margin-top: 15px;
+    font-size: 11px;
+    padding: 2px 20px;
+}
+
+.plan-upper-div .reviews-div{
+    display: flex;
+    background: #fff;
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 0;
+    position: absolute;
+    left: 25px;
+    top: 175px;
+}
+
+.review-right{
+    display: block;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.review-right .reviews-p {
+    font-size: 10px;
+    color: #78696D;
+    margin: 0px;
+}
+
+.plan-lower-div{
+    padding: 20px 0px;
+    margin-top: -20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 160px;
+    display: block;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.active-plan .plan-lower-div p{
+    color: #CBD6E5;
+}
+
+.plan-lower-div p{
+    display: flex;
+    align-items: center;
+    color: #78696D;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.plan-lower-div p span svg{
+    fill: #000;
+}
+
+.active-plan .plan-lower-div svg{
+    fill: #BEA232;
+}
+
+.active-plan .plan-lower-div h2{
+    color: #fff;
+}
+
+.plan-lower-div h2{
+    margin-left: 18px;
+    font-size: 20px;
+    color: #000;
+    margin-top: 0;
+}
+
+.stars-price-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -10px;
+}
+
+.stars-price-div p{
+    margin: 0;
+}
+
+.stars-price-div p span h3{
+    font-size: 18px;
+    color: #000;
+    font-weight: 600px;
+    margin-right: 4px;
+}
+
+.active-plan .plan-lower-div h3{
+    color: #fff;
+}
+
+.stars-price-div p span p{
+    font-size: 14px;
+}

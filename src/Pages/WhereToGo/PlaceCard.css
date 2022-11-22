@@ -1,0 +1,65 @@
+.card{
+    width: 490px;
+    height: 370px;
+    color: white;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.active-card{
+    width: 490px;
+    height: 370px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card svg{
+    display: block;
+    float: right;
+    width: 120px;
+    margin-top: 25px;
+    margin-right: -25px;
+}
+
+.card h2{
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    margin-top: 280px;
+}
+
+.card p{
+    display: none;
+}
+
+.card hr{
+    width: 0;
+}
+
+
+.active-card svg{
+    display: block;
+    float: right;
+    width: 120px;
+    margin-top: 25px;
+    margin-right: -25px;
+}
+
+.active-card h2{
+    display: block;
+    margin: 100px 0px 0px 70px;
+    color: #BEA232;
+}
+
+.active-card p{
+    margin: 30px 70px;
+}
+
+.active-card hr{
+    margin: 10px 70px;
+    width: 35%;
+}
+
+.active-card p span{
+    display: block;
+}

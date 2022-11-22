@@ -1,0 +1,74 @@
+.notification-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #002820;
+    color: #fff;
+    height: 60px;
+}
+
+.left-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-bar p{
+    margin: 10px 5px;
+}
+
+.right-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 20px;
+}
+
+.select-lang img{
+    width: 40px;
+}
+
+.select-lang select{
+    font-size: 18px;
+    background: #002820;
+    color: #fff;
+    border: none;
+    width: 100px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 10px;
+}
+
+.search img{
+    width: 40px;
+}
+
+.login-signup{
+    margin: auto 10px;
+}
+
+.login-signup span button{
+    font-size: 16px;
+    background: #002820;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: auto 5px;
+    padding: 5px 8px;
+}
+
+.login-signup span a{
+    font-size: 16px;
+    color: #fff;
+    margin: auto 10px;
+    text-decoration: none;
+}

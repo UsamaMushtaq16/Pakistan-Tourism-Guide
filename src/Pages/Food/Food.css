@@ -1,0 +1,139 @@
+.food-content{
+    display: block;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.food-content .food-div-heading{
+    font-size: 40px;
+    margin: 5px;
+    margin-top: 100px;
+}
+
+.food-content .food-div-heading span{
+    color: #333333;
+}
+
+.food-content .food-div-heading span:first-child{
+    color: #04736A;
+}
+
+.food-action-div{
+    display: block;
+    text-align: center;
+}
+
+.food-action-div .food-sorting-div{
+    float: left;
+}
+
+.food-action-div .food-sorting-div select{
+    color: #04736A;
+    border: 1px solid #04736A;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 6px 10px;
+    margin: 20px auto;
+}
+
+.food-action-div .food-action-button-div{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    padding-right: 0;
+}
+
+.food-action-div .food-action-button-div p{
+    font-size: 12;
+    color: #04736A;
+    margin: 20px;
+}
+
+.food-action-div .food-action-button-div .food-action-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #04736A;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+
+
+.food-action-div .food-action-button-div .food-disable-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #002820;
+    color: #fff;
+    margin:  10px 5px;
+}
+
+.food-grid{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.food-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.food-slider-dot{
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    border: 2px solid #04736A;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.food-slider-active-dot{
+    height: 13px;
+    width: 13px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background: #04736A;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.food-action-div .food-action-button-div .left-btn{
+    
+    left: 20px;
+}
+
+.food-action-div .food-action-button-div .right-btn{
+  margin-right: 0; 
+}
+
+.food-view-btn{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.food-view-btn button{
+    background: #002820;;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px 50px;
+    border-radius: 30px;
+    border: #002820;
+    text-align: center;
+}

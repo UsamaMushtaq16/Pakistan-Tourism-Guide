@@ -1,0 +1,35 @@
+.review-h1{
+    font-size: 40px;
+    color: #04736A;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.review-h1 span:last-child{
+    color: #333333;
+}
+
+.review-grid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.review-btn{
+    display: block;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.review-btn button{
+    background: #002820;;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px 50px;
+    border-radius: 30px;
+    border: #002820;
+    text-align: center;
+}

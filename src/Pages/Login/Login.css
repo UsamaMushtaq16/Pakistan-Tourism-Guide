@@ -1,0 +1,90 @@
+.login-page{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;   
+}
+
+.left-div{
+    width: 70%;
+    height: 100vh;
+    background-image: url('../../assets/Login\ Assets/login-image.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.left-div .logo{
+    margin: 50px 70px;
+}
+
+.login-div{
+    width: 522px;
+    display: block;
+    text-align: center;
+}
+
+.login-div h1{
+    color: #333333;
+    font-size: 45px;
+    margin: 55px auto 40px auto;
+    padding: 5px;
+}
+
+.login-div form input{
+    display: block;
+    width: 380px;
+    background: #cccccc;
+    border-style: none;
+    margin: 15px auto;
+    padding: 20px 50px;
+    border-radius: 25px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#login-btn{
+    color: white;
+    background: #002820;
+    font-size: 20px;
+    margin-top: 28px;
+    border-radius: 25px;
+}
+
+.login-div .forget-password{
+    font-size: 16px;
+    color: #7f7a78;
+    cursor: pointer;
+}
+
+.login-div .forget-password span:last-child{
+    color: #265bff;
+}
+
+.login-div .or-div p{
+    width: 380px ; 
+    text-align: center; 
+    font-size: 16px;
+    color: #7f7a78;
+    border-bottom: 1px solid #cac4c2; 
+    line-height: 0.1em;
+    margin: 40px auto; 
+}
+
+.login-div .or-div p span{
+    background:#fff; 
+    padding:0 20px; 
+}
+
+.option-btn{
+    width: 380px;
+    height: 60px;
+    color: white;
+    background: #002820;
+    margin: 10px auto;
+    border-style: none;
+    border-radius: 25px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -53,7 +53,7 @@ const Footer = () => {
         <img src={footerLinkedIn} alt='img' />
       </div>
       <div className='footer-copyright'>
-        <p>&copy 2022 MYPakistan. All rights reserved. Terms of Service / Privacy Policy</p>
+        <p>&copy; 2022 MYPakistan. All rights reserved. Terms of Service / Privacy Policy</p>
       </div>
     </section>
   )

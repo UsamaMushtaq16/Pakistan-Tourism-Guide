@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 20px 50px;
+    background-color: #002820;
 }
 
 #logo{
@@ -25,7 +26,8 @@
     font-size: 22px;
     padding: 10px 5px;
     margin: auto 10px;
-    color: #333333;
+    /* color: #333333; */
+    color: white;
     border-bottom: 2px solid transparent;
 }
 
@@ -42,4 +44,7 @@
 .navbar ul li a:hover{
     color: #04736A;
     border-bottom: 2px solid #04736A;
+}
+.navbar ul li img {
+    filter: invert();
 }

@@ -1,35 +1,36 @@
 import React from "react";
 import './Navbar.css'
-import Logo from '../../../assets/HomeAssets/Logo.png'
+import footerLogo from '../../../assets/FooterAssets/Logo1.png'
 import dropDown from '../../../assets/HomeAssets/dropDown1.png'
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <img id="logo" src={Logo} alt="img" />
+      <img id="logo" src={footerLogo} alt="img" />
       <ul>
         <li>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="/">Tour Plans</a>
+          <Link to="/">Tour Plans</Link>
         </li>
         <li>
-          <a href="/">Restaurants</a>
+          <Link to="/">Restaurants</Link>
         </li>
         <li>
-          <a href="/">Hotels</a>
+          <Link to="/hotel">Hotels</Link>
         </li>
         <li>
-          <a href="/">Transport</a>
+          <Link to="/">Transport</Link>
         </li>
         <li>
-          <a href="/">
+          <Link to="/">
             <span>More</span>
             <span>
               <img src={dropDown} alt="" />
             </span>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

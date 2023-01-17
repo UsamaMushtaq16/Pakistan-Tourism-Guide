@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: #002820;
+    /* background: #002820; */
+    background-color: black;
     color: #fff;
     height: 60px;
 }
@@ -36,7 +37,8 @@
 
 .select-lang select{
     font-size: 18px;
-    background: #002820;
+    /* background: #002820; */
+    background-color: black;
     color: #fff;
     border: none;
     width: 100px;
@@ -59,7 +61,8 @@
 
 .login-signup span button{
     font-size: 16px;
-    background: #002820;
+    /* background: #002820; */
+    background-color: black;
     color: #fff;
     border: 1px solid #fff;
     margin: auto 5px;

@@ -127,8 +127,8 @@ export default function HotelPage() {
             }
           </div>
           <div className='hotels'>
-            <span>Plan Your </span>
-            <span> Next Staycation</span>
+            <span>Plan Your&nbsp;</span>
+            <span>Next Staycation</span>
 
           </div>
 

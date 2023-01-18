@@ -11,7 +11,7 @@
 
 .content .places-heading{
     font-size: 40px;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .content .places-heading span{
@@ -25,6 +25,7 @@
 .content p{
     font-size: 20px;
     color: #333333;
+    margin-bottom: 50px;
 }
 
 .action-btn{
@@ -51,11 +52,12 @@
 }
 
 .places-grid{
-    width: 95%;
+    width: 90%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: auto;
+    
 }
 
 .places-slider{
@@ -86,13 +88,13 @@
 
 .left-btn{
     position: absolute;
-    top: 330px;
+    top: 400px;
     left: 20px;
 }
 
 .right-btn{
     position: absolute;
-    top: 330px;
+    top: 400px;
     right: 20px;
 }
 

@@ -55,7 +55,7 @@ const HotelCard = ({ data }) => {
       >
         {data.featured ? <p className="feature-tag">Featured</p> : <p className="disable-feature-tag"></p>}
         <div className="reviews-div">
-          <p>{data.rating}</p>
+          <p className="rating">{data.rating}</p>
           <div className="review-right">
             <Circles rating={data.rating} />
             <p className="reviews-p"> {data.reviews} reviews</p>
@@ -72,7 +72,10 @@ const HotelCard = ({ data }) => {
           </span>
           <span>{data.location}</span>
         </p>
+        <div className="headng">
+
         <h2>{data.hotelName}</h2>
+        </div>
         <div className="stars-price-div">
             <Stars stars={data.stars} />
             <p><span><h3>{data.price} </h3></span><span><p> per night</p></span> </p>

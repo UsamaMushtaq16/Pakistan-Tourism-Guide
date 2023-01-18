@@ -56,6 +56,10 @@
     top: 175px;
 }
 
+.plan-upper-div .reviews-div .rating{
+    margin-top: 40px;
+}
+
 .review-right{
     display: block;
     text-align: left;
@@ -104,11 +108,11 @@
     color: #fff;
 }
 
-.plan-lower-div h2{
+.plan-lower-div .headng h2 {
     margin-left: 18px;
     font-size: 20px;
     color: #000;
-    margin-top: 0;
+    margin-top: -35px;
 }
 
 .stars-price-div{

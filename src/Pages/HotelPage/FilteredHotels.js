@@ -1,11 +1,12 @@
 import { MdLocationOn } from "react-icons/md";
+import { Link } from "react-router-dom";
 import "./FilteredHotels.css";
 import Stars from "./Stars";
 
-const FilteredHotels = ({ data }) => {
+const FilteredHotels = ({ hotelData }) => {
 
     const boxStyle = {
-        backgroundImage: `url(${data.img})`,
+        backgroundImage: `url(${hotelData.img})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         transitionDelay: ".1s",
@@ -16,23 +17,23 @@ const FilteredHotels = ({ data }) => {
     return (
         <div className="hotel-card">
             <div className="left-div" style={boxStyle}>
-                {data.featured ? <p className="feature-tag">Featured</p> : <p className="disable-feature-tag"></p>}
+                {hotelData.featured ? <p className="feature-tag">Featured</p> : <p className="disable-feature-tag"></p>}
             </div>
             <div className="right-div">
-                <h2>{data.hotelName}</h2>
+                <h2>{hotelData.hotelName}</h2>
                 <p>
                     <span><MdLocationOn size={25} /></span>
-                    <span>{data.location}</span>
+                    <span>{hotelData.location}</span>
                 </p>
                 <div className="reviews-div">
 
                     <div className="rate">
-                    <p>{data.rating}</p>
+                    <p>{hotelData.rating}</p>
                     </div>
                     
                     <div className="review-right">
-                        <Stars stars={data.stars} />
-                        <p className="reviews-p"> {data.reviews} reviews</p>
+                        <Stars stars={hotelData.stars} />
+                        <p className="reviews-p"> {hotelData.reviews} reviews</p>
                     </div>
 
                 </div>
@@ -42,12 +43,12 @@ const FilteredHotels = ({ data }) => {
                 </div>
 
                 <div className="price-div">
-                    <h3>{data.price} </h3>
+                    <h3>{hotelData.price} </h3>
                     <p> per night</p>
                 </div>
                 <div className="butn">
                     <p>All taxes & fees included</p>
-                    <button>View Details</button>
+                    <Link to="/hoteldetail"><button>View Details</button></Link>
                 </div>
             </div>
         </div>

@@ -2,12 +2,12 @@ import React from 'react'
 import Navbar from '../Header/Navbar/Navbar'
 import Footer from '../Footer/Footer'
 import "./HotelPage.css";
-import PlanCard from "./ViewedHotel";
+import ViewedHotel from "./ViewedHotel";
 import plansData from "./ViewedHotelData";
 import { useEffect, useState } from 'react'
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai'
-import HotelCard from "./FilteredHotels";
-import hotelData from "./FilteredHotelData"
+import FilteredHotels from "./FilteredHotels";
+import hotelData from "./FilteredHotelData";
 
 
 
@@ -114,7 +114,7 @@ export default function HotelPage() {
           <div className="plans-grid">
             {
               plansData.slice(start, end).map((data) => {
-                return (<PlanCard key={data.id} data={data} />)
+                return (<ViewedHotel key={data.id} data={data} />)
               })
             }
 
@@ -168,10 +168,10 @@ export default function HotelPage() {
       </div>
       <div className='filtered-hotels'>
             {
-              hotelData.slice(start, end).map((data) => {
-                return (<HotelCard key={data.id} data={data} />)
+              hotelData.map((hotelData) => {
+                return (<FilteredHotels key={hotelData.id} hotelData={hotelData} />)
               })
-            }
+}
 
           </div>
       <Footer />

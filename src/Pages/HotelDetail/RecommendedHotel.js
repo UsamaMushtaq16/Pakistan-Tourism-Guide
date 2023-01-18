@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { MdLocationOn } from "react-icons/md";
-import Circles from "./Circles";
-import "./ViewedHotel.css";
-import Stars from "./Stars";
+import Circles from "../HotelPage/Circles";
+import "./RecommendedHotel.css";
+import Stars from "../HotelPage/Stars";
 
-const ViewedHotel = ({ data }) => {
+const RecommendedHotels = ({ data }) => {
   const [isHovering, setIsHovering] = useState(false);
 
   const handleMouseOver = () => {
@@ -86,4 +86,4 @@ const ViewedHotel = ({ data }) => {
   );
 };
 
-export default ViewedHotel;
+export default RecommendedHotels;

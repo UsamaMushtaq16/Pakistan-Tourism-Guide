@@ -49,4 +49,4 @@ const hotelData = [
     }
 ]
 
-export default hotelData
+export default hotelData;

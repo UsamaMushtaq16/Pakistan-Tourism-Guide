@@ -4,7 +4,7 @@ import Circles from "./Circles";
 import "./ViewedHotel.css";
 import Stars from "./Stars";
 
-const HotelCard = ({ data }) => {
+const ViewedHotel = ({ data }) => {
   const [isHovering, setIsHovering] = useState(false);
 
   const handleMouseOver = () => {
@@ -82,4 +82,4 @@ const HotelCard = ({ data }) => {
   );
 };
 
-export default HotelCard;
+export default ViewedHotel;

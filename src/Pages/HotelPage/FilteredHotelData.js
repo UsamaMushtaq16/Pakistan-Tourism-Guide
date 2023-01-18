@@ -2,7 +2,7 @@ import Hotel1 from '../../assets/HotelsAssets/Hotel1.jpg'
 import Hotel2 from '../../assets/HotelsAssets/Hotel2.jpg'
 import Hotel3 from '../../assets/HotelsAssets/Hotel3.jpg'
 
-const plansData = [
+const hotelData = [
     {
         id:'1',
         img: Hotel1,
@@ -49,4 +49,4 @@ const plansData = [
     }
 ]
 
-export default plansData
+export default hotelData

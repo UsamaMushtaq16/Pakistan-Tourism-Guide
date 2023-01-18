@@ -2,7 +2,7 @@ import { MdLocationOn } from "react-icons/md";
 import "./FilteredHotels.css";
 import Stars from "./Stars";
 
-const HotelCard = ({ data }) => {
+const FilteredHotels = ({ data }) => {
 
     const boxStyle = {
         backgroundImage: `url(${data.img})`,
@@ -54,4 +54,4 @@ const HotelCard = ({ data }) => {
     );
 };
 
-export default HotelCard;
+export default FilteredHotels;

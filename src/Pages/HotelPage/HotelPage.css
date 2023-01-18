@@ -135,7 +135,7 @@
 }
 .hotels{
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .hotels span{
     color: #333333;
@@ -169,4 +169,5 @@
     display: block;
     width: 70%;
     margin: auto;
+    margin-bottom: 100px;
 }

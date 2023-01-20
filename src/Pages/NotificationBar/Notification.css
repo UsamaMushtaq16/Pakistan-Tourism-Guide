@@ -67,6 +67,7 @@
     border: 1px solid #fff;
     margin: auto 5px;
     padding: 5px 8px;
+    
 }
 
 .login-signup span a{
@@ -74,4 +75,32 @@
     color: #fff;
     margin: auto 10px;
     text-decoration: none;
+}
+
+.login-signup select{
+    font-size: 16px;
+    color: #fff;
+    background-color: black;
+    margin: auto 10px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 5px 8px;
+}
+
+.login-signup select option:hover{
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    margin: auto 10px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 5px 8px;
+}
+
+.login-signup span select a{
+    font-size: 16px;
+    color: #fff;
+    margin: auto 10px;
+    text-decoration: none;
+    cursor: pointer;
 }

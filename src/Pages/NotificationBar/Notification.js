@@ -30,7 +30,16 @@ const Notification = () => {
           <span>
             <button><a href='/login'>LogIn</a></button>
           </span>
-          <span><a href="/signup">Sign Up</a></span>
+          <span>
+          <select name="register" id="register">
+            <option value="1" selected>Register As..</option>
+            <option value="user"><a href="/signup">User</a></option>
+            <option value="hotel-manager"><a href="/signup">Hotel Manager</a></option>
+            <option value="restaurant-manager"><a href="/signup">Restaurant Manager</a></option>
+            <option value="tour-guide"><a href="/signup">Tour Guide</a></option>
+            <option value="transport-agency"><a href="/signup">Transport Agency</a></option>
+          </select>
+          </span>
         </div>
       </div>
     </div>

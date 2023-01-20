@@ -10,7 +10,8 @@ const hotelDetailedData = [
         reviews: '200',
         price: 'Rs.4,500',
         stars: '4',
-        location: 'Hunza Valley, Gilgit Baltistan, Pakistan'
+        location: 'Hunza Valley, Gilgit Baltistan, Pakistan',
+        phone: '0300-1234567'
     }
 ]
 

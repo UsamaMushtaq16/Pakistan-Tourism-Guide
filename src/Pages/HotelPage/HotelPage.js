@@ -60,20 +60,22 @@ export default function HotelPage() {
           <div className='form-sec'>
             <h1>Find your place to stay</h1>
             <form class="row gx-3 gy-2 align-items-center">
-              <div class="col-sm-4">
+              <div class="col-sm-5">
                 <label class="visual" for="specificSizeInputName">Where do you want to go?</label>
                 <input type="text" class="form-control" id="specificSizeInputName" placeholder="Enter destination or hotel name" />
               </div>
-              <div class="col-sm-4">
-                <label class="visual " for="specificSizeInputGroupUsername">Hotel Type</label>
-                <select class="form-select" id="specificSizeSelect">
-                  <option selected>Choose...</option>
-                  <option value="1">3 star</option>
-                  <option value="2">4 star</option>
-                  <option value="3">5 star</option>
-                </select>
+              <div class="col-sm-2">
+                 
+                        <label for="date" class="visual">Check-in</label>
+                        <input type="date" class="form-control" id="date" />
+               </div>
+               <div class="col-sm-2">
+                    
+                        <label for="date" class="visual">Check-out</label>
+                        <input type="date" class="form-control" id="date" />
+                     
               </div>
-              <div class="col-sm-4">
+              <div class="col-sm-3">
                 <label class="visual" for="specificSizeSelect">Guests & Rooms</label>
                 <select class="form-select" id="specificSizeSelect">
                   <option selected>Choose...</option>

@@ -17,9 +17,10 @@
     background-color: #04736A;
     border: 1px solid white;
     border-radius: 10px;
-    padding: 5px 20px;
+    padding: 12px 25px;
     color: white;
-    font-size: 17px;
+    font-size: 19px;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -77,5 +78,12 @@
 
 .main-sec .desc{
     margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-sec .desc span:first-child{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
 }
 

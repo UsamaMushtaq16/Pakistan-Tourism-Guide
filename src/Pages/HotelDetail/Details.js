@@ -1,6 +1,8 @@
 import { MdLocationOn } from "react-icons/md";
 import "./Details.css";
 import Stars from "../HotelPage/Stars";
+import { Link } from "react-router-dom";
+
 
 
 
@@ -14,7 +16,7 @@ const Details = ({ hotelDetailedData }) => {
                 <div className="top">
 
                     <h2>{hotelDetailedData.hotelName}</h2>
-                    <button >Book Now</button>
+                    <Link to='/hotelbooking'><button>Book Now</button></Link>
 
                 </div>
                 <p>
@@ -43,6 +45,7 @@ const Details = ({ hotelDetailedData }) => {
                 </div>
                 <div className="desc">
                     <p>All taxes & fees included</p>
+                    <p><span>Contact: </span><span>{hotelDetailedData.phone}</span></p>        
 
                 </div>
 

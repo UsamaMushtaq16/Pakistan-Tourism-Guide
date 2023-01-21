@@ -1,4 +1,5 @@
 import React from 'react'
+import Notification from '../NotificationBar/Notification'
 import Navbar from '../Header/Navbar/Navbar'
 import Footer from '../Footer/Footer'
 import './HotelBooking.css'
@@ -6,6 +7,7 @@ import './HotelBooking.css'
 export default function HotelBooking() {
     return (
         <>
+            <Notification/>
             <Navbar />
             <div className='booking-main'>
                 <h1 className='booking-head'>

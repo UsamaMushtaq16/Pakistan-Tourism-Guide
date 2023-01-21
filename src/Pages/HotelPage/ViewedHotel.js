@@ -56,7 +56,7 @@ const ViewedHotel = ({ data }) => {
         {data.featured ? <p className="feature-tag">Featured</p> : <p className="disable-feature-tag"></p>}
         <div className="reviews-div">
           <div className="ratings">
-          <p>{data.rating}</p>
+            <p>{data.rating}</p>
           </div>
           <div className="review-right">
             <Circles rating={data.rating} />
@@ -68,19 +68,23 @@ const ViewedHotel = ({ data }) => {
         className="plan-lower-div"
         style={isHovering ? lowerActiveStyle : lowerStyle}
       >
-        <p>
-          <span>
-            <MdLocationOn size={25}/>
+        <p className="ht-location">
+          <span >
+            <MdLocationOn size={25} />
           </span>
           <span>{data.location}</span>
         </p>
         <div className="hding">
-        <h2>{data.hotelName}</h2>
+          <h2>{data.hotelName}</h2>
         </div>
-        <div className="stars-price-div">
-            <Stars stars={data.stars} />
-            <p><span><h3>{data.price} </h3></span><span><p> per night</p></span> </p>
+        <div className="stars-div">
+          <Stars stars={data.stars} />
         </div>
+
+        <div className="prc">
+          <span><h3>{data.price} </h3></span><span>per night</span>
+        </div>
+
       </div>
     </div>
   );

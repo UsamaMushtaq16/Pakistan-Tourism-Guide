@@ -93,7 +93,10 @@
     color: #78696D;
     font-size: 12px;
     margin-left: 15px;
-    margin-top: 30px;
+    
+}
+.plan-lower-div .h-location{
+    margin-top: 15px;
 }
 
 .plan-lower-div p span svg{
@@ -112,31 +115,35 @@
     margin-left: 18px;
     font-size: 20px;
     color: #000;
-    margin-top: -35px;
+    margin-top: -45px;
 }
-
-.stars-price-div{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: -10px;
-}
-
-.stars-price-div p{
-    margin: 0;
-}
-
-.stars-price-div p span h3{
-    font-size: 18px;
-    color: #000;
-    font-weight: 600px;
-    margin-right: 4px;
-}
-
+ 
 .active-plan .plan-lower-div h3{
     color: #fff;
 }
 
-.stars-price-div p span p{
+
+.stars-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.prc{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+.prc span h3{
+    font-size: 18px;
+    color: #000;
+    font-weight: 600px;
+    margin-right: 6px;
+}
+.prc span p{
     font-size: 14px;
+    margin-top: 15px;
+    
 }

@@ -10,7 +10,7 @@ const FoodCard = ({data}) => {
       setIsHovering(true);
     };
   
-    const handleMouseOut = () => {
+    const handleMouseOut = () => { 
       setIsHovering(false);
     };
   

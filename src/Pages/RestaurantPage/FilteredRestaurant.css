@@ -9,7 +9,7 @@
 
 .left-div {
     width: 40%;
-    height: 350px; 
+    height: 300px; 
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -59,7 +59,7 @@
 
 .right-div{
     padding: 20px 30px;
-    height: 350px;
+    height: 300px;
     width: 60%;
     text-align: left;
 }
@@ -95,30 +95,14 @@
     color: #04736A;
     margin: 0px;
 }
-.price-div{
-    display: flex;
-}
 
-.price-div h3{
-    font-size: 20px;
-    color: #000;
-    font-weight: bold;
-    margin-right: 4px;
-    margin-top: 15px;
-}
- 
-.price-div p{
-    font-size: 14px;
-    margin-top: 15px;
-}
 
-.butn{
+.rest-butn{
     display: flex;
     justify-content: space-between;
-    margin-top: -10px;
 }
 
-.butn button{
+.rest-butn button{
     background-color: #04736A;
     border: 1px solid white;
     border-radius: 10px;
@@ -126,4 +110,21 @@
     color: white;
     font-size: 17px;
     text-decoration: none;
+    margin-top: 20px;
+}
+
+.rest-time{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+.rest-time span h3{
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+.rest-time-text{
+    margin-top: 4px;
+    margin-left: 10px;
 }

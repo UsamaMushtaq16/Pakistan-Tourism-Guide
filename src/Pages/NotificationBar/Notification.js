@@ -4,6 +4,7 @@ import warning from "../../assets/HomeAssets/alert.png";
 import globe from "../../assets/HomeAssets/language.png";
 import search from "../../assets/HomeAssets/search.png";
 import notification from "../../assets/HomeAssets/icon.png";
+import { Link } from "react-router-dom";
 
 const Notification = () => {
   return (
@@ -28,17 +29,19 @@ const Notification = () => {
         </div>
         <div className="login-signup">
           <span>
-            <button><a href='/login'>LogIn</a></button>
+            <button><Link to='/login'>LogIn</Link></button>
           </span>
-          <span>
-          <select name="register" id="register">
-            <option value="1" selected>Register As..</option>
-            <option value="user"><a href="/signup">User</a></option>
-            <option value="hotel-manager"><a href="/signup">Hotel Manager</a></option>
-            <option value="restaurant-manager"><a href="/signup">Restaurant Manager</a></option>
-            <option value="tour-guide"><a href="/signup">Tour Guide</a></option>
-            <option value="transport-agency"><a href="/signup">Transport Agency</a></option>
-          </select>
+          <span >
+            <div class="dropdown">
+              <button class="dropbtn">Register &nbsp;<i class="fa fa-caret-down"></i> </button>
+              <div class="dropdown-content">
+                <Link to="/signup" className="lnk">Hotel Manager</Link>
+                <Link to="/signup" className="lnk">User</Link>
+                <Link to="/signup" className="lnk">Restaurant Manager</Link>
+                <Link to="/signup" className="lnk">Tour Guide</Link>
+                <Link to="/signup" className="lnk">Transport Agency</Link>
+               </div>
+            </div>
           </span>
         </div>
       </div>

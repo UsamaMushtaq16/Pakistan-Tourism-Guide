@@ -16,7 +16,7 @@ const Navbar = () => {
           <Link to="/">Tour Plans</Link>
         </li>
         <li>
-          <Link to="/">Restaurants</Link>
+          <Link to="/restaurant">Restaurants</Link>
         </li>
         <li>
           <Link to="/hotel">Hotels</Link>

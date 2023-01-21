@@ -92,11 +92,7 @@
     color: #78696D;
     font-size: 12px;
     margin-left: 15px;
-   
-}
-
-.plan-lower-div .ht-location{
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .plan-lower-div p span svg{
@@ -118,33 +114,25 @@
     margin-top: -40px;
 }
 
-.stars-div{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-left: 20px;
-}
-
-.prc{
-    display: flex;
-    justify-content: right;
-    margin-right: 20px;
-}
-
-.prc span h3{
-    font-size: 18px;
-    color: #000;
-    font-weight: 600px;
-    margin-right: 6px;
-}
-
-
-.prc span p{
-    font-size: 14px;
-    margin-top: 15px;
-    
-}
 
 .active-plan .plan-lower-div h3{
     color: #fff;
+}
+
+.r-time{
+    display: flex;
+    justify-content:  left;
+    margin-left: 20px;
+    margin-top: 15px;
+} 
+
+.r-time h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.r-time .r-time-text p{
+    font-size: 15px;
+    margin-top: 0px;
 }

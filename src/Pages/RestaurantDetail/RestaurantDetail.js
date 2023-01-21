@@ -2,19 +2,20 @@ import React from 'react'
 import Notification from '../NotificationBar/Notification'
 import Navbar from '../Header/Navbar/Navbar'
 import Footer from '../Footer/Footer'
-import "./HotelDetail.css"
-import Hotel1 from '../../assets/HotelsAssets/hotel-room1.png'
-import Hotel2 from '../../assets/HotelsAssets/hotel-room2.png'
-import Hotel3 from '../../assets/HotelsAssets/hotel-room3.png'
-import Hotel4 from '../../assets/HotelsAssets/hotel-room4.png'
-import Details from './Details'
-import hotelDetailedData from './HotelDetailedData'
-import recommendHotels from './RecommendedHotelData'
-import RecommendedHotel from './RecommendedHotel'
+import "./RestaurantDetail.css"
+import FoodImage from '../../assets/HotelsAssets/RestaurantHeader.jpg'
+import FoodImage1 from '../../assets/FoodAssets/restaurant2.png'
+import FoodImage2 from '../../assets/FoodAssets/restaurant3.png'
+import FoodImage3 from '../../assets/FoodAssets/restaurant1.png'
+import Rakapshi from '../../assets/PlacesAssets/swat.png'
+import RestDetails from './RestDetails'
+import restDetailedData from './RestaurantDetailedData'
+import recommendRestaurant from './RecommendedRestData'
+import RecommendedRestaurant from './RecommendedRestaurant'
 import { useEffect, useState } from 'react'
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai'
-
-export default function HotelDetail() {
+ 
+export default function RestaurantDetail() {
     const [start, setStart] = useState(0);
     const [current, setCurrent] = useState(0);
     const [end, setEnd] = useState(3)
@@ -27,7 +28,7 @@ export default function HotelDetail() {
             setdisableRight(false)
             setCurrent(0)
         }
-        if (end === recommendHotels.length) {
+        if (end === recommendRestaurant.length) {
             setdisableRight(true)
             setdisableLeft(false)
             setCurrent(2)
@@ -45,7 +46,7 @@ export default function HotelDetail() {
     }
 
     const goToRight = () => {
-        if (end < recommendHotels.length) {
+        if (end < recommendRestaurant.length) {
             setStart(start + 1)
             setCurrent(end - 1)
             setEnd(end + 1)
@@ -61,18 +62,18 @@ export default function HotelDetail() {
             <div className='top-sec'>
 
                 <div className='imgs-left'>
-                    <img src={Hotel1} alt="" />
+                    <img src={FoodImage} alt="" />
                 </div>
 
                 <div className='imgs-right'>
                     <div className='img-top'>
-                        <img src={Hotel2} alt="" />
-                        <img src={Hotel3} alt="" />
+                        <img src={FoodImage1} alt="" />
+                        <img src={FoodImage2} alt="" />
                     </div>
 
                     <div className='img-botm'>
-                        <img src={Hotel4} alt="" />
-                        <img src={Hotel2} alt="" />
+                        <img src={Rakapshi} alt="" />
+                        <img src={FoodImage3} alt="" />
 
                     </div>
                 </div>
@@ -82,8 +83,8 @@ export default function HotelDetail() {
 
             <div>
                 {
-                    hotelDetailedData.map((hotelDetailedData) => {
-                        return (<Details key={hotelDetailedData.id} hotelDetailedData={hotelDetailedData} />)
+                    restDetailedData.map((restDetailedData) => {
+                        return (<RestDetails key={restDetailedData.id} restDetailedData={restDetailedData} />)
                     })
                 }
 
@@ -100,70 +101,49 @@ export default function HotelDetail() {
                         <div className="services-main">
                             <div className="service">
                                 <ul>
-                                    <li>Free Parking</li>
-                                    <li>Pool</li>
+                                    <li>Free Cancellation</li>
                                     <li>Free WiFi</li>
                                 </ul>
                             </div>
 
                             <div className="service">
                                 <ul>
-                                    <li>Free Breakfast</li>
-                                    <li>Free Dinner</li>
-                                    <li>Fitness Center</li>
-
-                                </ul>
+                                    <li>Seperate hall for families</li>
+                                    <li>Air Conditioned hall</li>
+                              </ul>
                             </div>
 
                         </div>
 
                         <h2>
-                            <span>Room </span>
-                            <span>Features</span>
-
-                        </h2>
-                        <div className="services-main">
-                            <div className="service">
-                                <ul>
-                                    <li>Air Condition</li>
-                                    <li>Room Service</li>
-                                    <li>Flat Screen TV</li>
-                                </ul>
-                            </div>
-
-                            <div className="service">
-                                <ul>
-                                    <li>Sofa</li>
-                                    <li>Private Balcony</li>
-                                    <li>Refrigerator</li>
-
-                                </ul>
-                            </div>
-                        </div>
-                        <h2>
-                            <span>Room </span>
+                            <span>Food </span>
                             <span>Types</span>
 
                         </h2>
                         <div className="services-main">
                             <div className="service">
                                 <ul>
-                                    <li>Bridal Suite</li>
+                                    <li>BBQ</li>
+                                    <li>Desi</li>
+                                    <li>Rice</li>
                                 </ul>
                             </div>
 
                             <div className="service">
                                 <ul>
-                                    <li>Non-Smoking Rooms</li>
-
+                                    <li>Fast Food</li>
+                                    <li>Chinese Food</li>
+                                    <li>Italian Food</li>
 
                                 </ul>
                             </div>
                         </div>
+                          
+                       
                     </div>
-                    <div className="properties-right">
+                    <div className="r-properties-right">
                         <p>
-                            Experience ultimate convenience with all amenities you need to ensure a confortable and relaxing stay at our business hotel.
+                            Enjoy and experience good quality and hygienic food of different types at our top class restaurant.
                         </p>
                     </div>
 
@@ -177,11 +157,10 @@ export default function HotelDetail() {
                 <div className="policy-main">
 
                     <div className="policy-left">
-                        <h3>Check-in</h3>
-                        <span>Check-in time starts at 2:00 PM</span>
-                        <p>Express check-in available</p>
-                        <h3>Children & extra beds</h3>
-                        <p>Children are allowed</p>
+                        <h3>Booking</h3>
+                        <p>Please, reserve your table 1 hour before of coming</p>
+                        <h3>Cancellation</h3>
+                        <p>Free cancellation available</p>                     
 
                         <h3>Payment Types</h3>
                         <ul>
@@ -192,11 +171,8 @@ export default function HotelDetail() {
                     </div>
 
                     <div className="policy-right">
-                        <h3>Check-out</h3>
-                        <span>Checck-out time starts at 2:00 PM</span>
-                        <p>Express check-out available</p>
-                        <h3>Pets</h3>
-                        <p>Pets not alowed</p>
+                    <h3>Opening Hours</h3>
+                        <span>11:00 AM - 12:00 AM</span>
                     </div>
 
                 </div>
@@ -224,8 +200,8 @@ export default function HotelDetail() {
 
                         <div className="plans-grid">
                             {
-                                recommendHotels.slice(start, end).map((data) => {
-                                    return (<RecommendedHotel key={data.id} data={data} />)
+                                recommendRestaurant.slice(start, end).map((data) => {
+                                    return (<RecommendedRestaurant key={data.id} data={data} />)
                                 })
                             }
 

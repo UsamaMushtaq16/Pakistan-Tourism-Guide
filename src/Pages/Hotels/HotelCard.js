@@ -66,7 +66,7 @@ const HotelCard = ({ data }) => {
         className="plan-lower-div"
         style={isHovering ? lowerActiveStyle : lowerStyle}
       >
-        <p>
+        <p className="h-location">
           <span>
             <MdLocationOn size={25}/>
           </span>
@@ -76,9 +76,12 @@ const HotelCard = ({ data }) => {
 
         <h2>{data.hotelName}</h2>
         </div>
-        <div className="stars-price-div">
-            <Stars stars={data.stars} />
-            <p><span><h3>{data.price} </h3></span><span><p> per night</p></span> </p>
+        <div className="stars-div">
+          <Stars stars={data.stars} />
+        </div>
+
+        <div className="prc">
+          <span><h3>{data.price} </h3></span><span>per night</span>
         </div>
       </div>
     </div>

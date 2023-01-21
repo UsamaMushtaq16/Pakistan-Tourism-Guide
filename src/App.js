@@ -6,6 +6,8 @@ import SignUp from './Pages/Signup/SignUp'
 import HotelPage from "./Pages/HotelPage/HotelPage";
 import HotelDetail from "./Pages/HotelDetail/HotelDetail";
 import HotelBooking from "./Pages/HotelBooking/HotelBooking";
+import RestaurantPage from "./Pages/RestaurantPage/RestaurantPage";
+import RestaurantDetail from "./Pages/RestaurantDetail/RestaurantDetail";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
             <Route path="/hotel" element={<HotelPage/>} />
             <Route path="/hoteldetail" element={<HotelDetail/>} />
             <Route path="/hotelbooking" element={<HotelBooking/>} />
+            <Route path="/restaurant" element={<RestaurantPage/>} />
+            <Route path="/restaurantdetail" element={<RestaurantDetail/>} />
 
           </Route>
         </Routes>

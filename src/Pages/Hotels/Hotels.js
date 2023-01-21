@@ -4,6 +4,8 @@ import {AiOutlineLeft, AiOutlineRight} from 'react-icons/ai'
 import { useEffect, useState } from 'react'
 import plansData from "./plansData";
 import PlanCard from "./HotelCard";
+import { Link } from "react-router-dom";
+
 
 const Hotels = () => {
     const [start, setStart] = useState(0);
@@ -93,7 +95,7 @@ const Hotels = () => {
             }
             </div>
             <div className="place-view-btn">
-              <button>View All</button>
+            <Link to="/hotel"><button>View All</button></Link>
             </div>
         </div>
       </section>

@@ -7,7 +7,7 @@ const plansData = [
     {
         id:'1',
         img: FoodImage,
-        hotelName: 'Cafe De Hunza',
+        restaurantName: 'Cafe De Hunza',
         featured: true,
         rating: '4.5',
         reviews: '2,800',
@@ -18,7 +18,7 @@ const plansData = [
     {
         id:'2',
         img: FoodImage1,
-        hotelName: 'Pablos',
+        restaurantName: 'Pablos',
         featured: true,
         rating: '4.5',
         reviews: '200',
@@ -29,7 +29,7 @@ const plansData = [
     {
         id:'3',
         img: FoodImage2,
-        hotelName: 'Cafe Ayalanto',
+        restaurantName: 'Cafe Ayalanto',
         featured: true,
         rating: '4.5',
         reviews: '1,100',
@@ -40,7 +40,7 @@ const plansData = [
     {
         id:'4',
         img: Rakapshi,
-        hotelName: 'Ten Hill Cafe',
+        restaurantName: 'Ten Hill Cafe',
         featured: true,
         rating: '4.5',
         reviews: '2,800',

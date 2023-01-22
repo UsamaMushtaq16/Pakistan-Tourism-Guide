@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { MdLocationOn } from "react-icons/md";
-import Circles from "./Circles";
-import "./ViewedRestaurant.css";
+import Stars from "./Stars";
+import "./ViewedTour.css";
 
-const ViewedRestaurant = ({ data }) => {
+const ViewedTour = ({ data }) => {
   const [isHovering, setIsHovering] = useState(false);
 
   const handleMouseOver = () => {
@@ -58,7 +58,7 @@ const ViewedRestaurant = ({ data }) => {
             <p>{data.rating}</p>
           </div>
           <div className="review-right">
-            <Circles rating={data.rating} />
+            <Stars rating={data.rating} stars={data.stars}/>
             <p className="reviews-p"> {data.reviews} reviews</p>
           </div>
         </div>
@@ -68,22 +68,24 @@ const ViewedRestaurant = ({ data }) => {
         style={isHovering ? lowerActiveStyle : lowerStyle}
       >
 
-        <p>
+        <p className="t-location">
           <span>
             <MdLocationOn size={25} />
           </span>
-          <span>{data.location}</span>
+          <span>{data.description}</span>
         </p>
         <div className="hding">
-          <h2>{data.restaurantName}</h2>
+          <h2>{data.agencyName}</h2>
         </div>
 
-        <div className="r-time">
+        <div className="t-price">
 
-          <h3>Open :</h3>
-          <div className="r-time-text">
-            <p>{data.time}</p>
+          <div className="t-duration">
+            <p>{data.duration}</p>
+          </div>
 
+          <div className="t-prc">
+            <span><h3>{data.price} </h3></span><span>per night</span>
           </div>
 
         </div>
@@ -92,4 +94,4 @@ const ViewedRestaurant = ({ data }) => {
   );
 };
 
-export default ViewedRestaurant;
+export default ViewedTour;

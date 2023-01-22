@@ -9,6 +9,7 @@ import HotelBooking from "./Pages/HotelBooking/HotelBooking";
 import RestaurantPage from "./Pages/RestaurantPage/RestaurantPage";
 import RestaurantDetail from "./Pages/RestaurantDetail/RestaurantDetail";
 import RestaurantBooking from "./Pages/RestaurantBooking/RestaurantBooking";
+import TourPage from "./Pages/TourPlanPage/TourPage";
 
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
             <Route path="/restaurant" element={<RestaurantPage/>} />
             <Route path="/restaurantdetail" element={<RestaurantDetail/>} />
             <Route path="/restaurantbooking" element={<RestaurantBooking/>} />
+            <Route path="/tour" element={<TourPage/>} />
+
 
 
           </Route>

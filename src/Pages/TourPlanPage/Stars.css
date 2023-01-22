@@ -1,0 +1,21 @@
+.plan-card .star-icons-div span svg{
+    margin: 0;
+    padding: 0;
+    fill: #04736A;
+}
+
+.active-plan .star-icons-div span svg{
+    margin: 0;
+    padding: 0;
+    fill: #BEA232;
+}
+
+.plan-card .circle-icons-div span svg{
+    fill: #04736A;
+    stroke: #04736A;
+}
+
+.active-plan .circle-icons-div span svg{
+    fill: #04736A;
+    stroke: #04736A;
+}

@@ -4,6 +4,7 @@ import Logo from '../../assets/Login Assets/Logo1.png'
 import googlesignup from '../../assets/Login Assets/google.png'
 import facebooksignup from '../../assets/Login Assets/facebook.png'
 import { useNavigate } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 const SignUp = () => {
     const navigate = useNavigate()
@@ -12,15 +13,14 @@ const SignUp = () => {
       navigate('/')
     }
 
-    function signup(){
-        navigate('/signup')
-    }
   
     return (
       <div className='signup-page'>
-        <div className='left-div'>
+
+        <div className='signup-left-div'>
           <img className='logo' src={Logo} alt='img'/>
         </div>
+
         <div className='signup-div'>
           <h1>Sign Up</h1>
           <form onSubmit={verifyUser}>
@@ -31,7 +31,7 @@ const SignUp = () => {
             <input type='submit' value='SignUp'/>
           </form>
   
-          <p className='forget-password' onClick={signup}><span>Already have account?</span><span> LogIn </span></p>
+          <div className='account'><span>Already have account?</span><Link to='/login'><span> LogIn </span></Link></div>
   
           <div className='or-div'>
             <p><span>OR</span></p>

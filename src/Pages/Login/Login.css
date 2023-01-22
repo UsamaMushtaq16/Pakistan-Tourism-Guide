@@ -5,20 +5,21 @@
     display: flex;   
 }
 
-.left-div{
-    width: 70%;
+.login-left-div{
+    width: 60%;
     height: 100vh;
     background-image: url('../../assets/Login\ Assets/login-image.png');
     background-repeat: no-repeat;
     background-size: 100%;
+
 }
 
-.left-div .logo{
+.login-left-div .logo{
     margin: 50px 70px;
 }
 
 .login-div{
-    width: 522px;
+    width: 40%;
     display: block;
     text-align: center;
 }
@@ -26,7 +27,7 @@
 .login-div h1{
     color: #333333;
     font-size: 45px;
-    margin: 55px auto 40px auto;
+    margin: 25px auto 40px auto;
     padding: 5px;
 }
 
@@ -87,4 +88,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    
 }
+
+ .txt{
+    text-decoration: none;
+ }

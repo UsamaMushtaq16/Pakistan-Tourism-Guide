@@ -4,6 +4,7 @@ import {AiOutlineLeft, AiOutlineRight} from 'react-icons/ai'
 import { useEffect, useState } from 'react'
 import foodsData from './foodData'
 import FoodCard from './FoodCard'
+import { Link } from 'react-router-dom'
 
 
 const Food = () => {
@@ -93,7 +94,7 @@ const Food = () => {
             }
             </div>
             <div className="food-view-btn">
-              <button>View All</button>
+              <Link to='/restaurant'><button>View All</button></Link>
             </div>
         </div>
       </section>

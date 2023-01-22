@@ -5,19 +5,20 @@
     display: flex;   
 }
 
-.left-div{
-    width: 70%;
+.signup-left-div{
+    width: 60%;
+    height: 100vh;
     background-image: url('../../assets/Login\ Assets/login-image.png');
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
-.left-div .logo{
+.signup-left-div .logo{
     margin: 50px 70px;
 }
 
 .signup-div{
-    width: 522px;
+    width: 40%;
     display: block;
     text-align: center;
 }
@@ -25,7 +26,7 @@
 .signup-div h1{
     color: #333333;
     font-size: 45px;
-    margin: 50px auto 35px auto;
+    margin: 25px auto;
 }
 
 .signup-div form input{
@@ -85,4 +86,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.account span:nth-child(2){
+    text-decoration: none;
 }

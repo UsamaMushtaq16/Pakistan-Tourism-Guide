@@ -8,6 +8,8 @@ import HotelDetail from "./Pages/HotelDetail/HotelDetail";
 import HotelBooking from "./Pages/HotelBooking/HotelBooking";
 import RestaurantPage from "./Pages/RestaurantPage/RestaurantPage";
 import RestaurantDetail from "./Pages/RestaurantDetail/RestaurantDetail";
+import RestaurantBooking from "./Pages/RestaurantBooking/RestaurantBooking";
+
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
             <Route path="/hotelbooking" element={<HotelBooking/>} />
             <Route path="/restaurant" element={<RestaurantPage/>} />
             <Route path="/restaurantdetail" element={<RestaurantDetail/>} />
+            <Route path="/restaurantbooking" element={<RestaurantBooking/>} />
+
 
           </Route>
         </Routes>

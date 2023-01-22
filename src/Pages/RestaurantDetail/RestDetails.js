@@ -16,7 +16,7 @@ const RestDetails = ({ restDetailedData }) => {
                 <div className="top">
 
                     <h2>{restDetailedData.restaurantName}</h2>
-                    <Link to='/hotelbooking'><button>Book Now</button></Link>
+                    <Link to='/restaurantbooking'><button>Book Now</button></Link>
 
                 </div>
                 <p>

@@ -27,7 +27,7 @@ const tourData = [
         description: 'From Lahore to Swat',
         price: 'Rs.6,500',
         stars: 4,
-        duration: '3 Day Tour',
+        duration: '3 Days Tour',
         reviews: '100',
         rating: 4
     },
@@ -40,7 +40,7 @@ const tourData = [
         description: 'From Lahore to Gilgit',
         price: 'Rs.5,500',
         stars: 5,
-        duration: '2 Day Tour',
+        duration: '2 Days Tour',
         reviews: '100',
         rating: 5
     },
@@ -53,7 +53,7 @@ const tourData = [
         description: 'From Lahore to Hunza',
         price: 'Rs.8,500',
         stars: 5,
-        duration: '5 Day Tour',
+        duration: '5 Days Tour',
         reviews: '100',
         rating: 5
     }

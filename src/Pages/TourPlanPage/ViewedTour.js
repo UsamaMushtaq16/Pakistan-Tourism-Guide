@@ -85,7 +85,7 @@ const ViewedTour = ({ data }) => {
           </div>
 
           <div className="t-prc">
-            <span><h3>{data.price} </h3></span><span>per night</span>
+            <span><h3>{data.price} </h3></span> <span>per person</span>
           </div>
 
         </div>

@@ -53,33 +53,38 @@ export default function TourPage() {
 
   return (
     <>
-      <Notification/>
+      <Notification />
       <Navbar />
-      <div className='Container-restaurant'>
+      <div className='Container-tour'>
         <div className='tour-Container2'>
 
           <div className='tour-form-sec'>
             <h1>Find the Tour Plans</h1>
             <form class="row gx-3 gy-2 align-items-center">
               <div class="col">
-                <label class="visual" for="specificSizeInputName">Where do you want to go/</label>
-                <input type="text" class="form-control" id="specificSizeInputName" placeholder="Enter destination" />
+                <label class="visual" for="specificSizeInputName">Where do you want to go?</label>
+                <select class="form-select" id="specificSizeSelect">
+                  <option selected>Choose...</option>
+                  <option value="1">From Swat to Islamabad</option>
+                  <option value="2">From Lahore to Hunza</option>
+                  <option value="3">From Lahore to Muree</option>
+                  <option value="4">From Lahore to Islamabad</option>
+                </select>
+
               </div>
               <div class="col">
-              <label class="visual" for="specificSizeSelect">Days</label>
+                <label class="visual" for="specificSizeSelect">Days</label>
                 <select class="form-select" id="specificSizeSelect">
                   <option selected>Choose...</option>
                   <option value="1">1</option>
                   <option value="2">3</option>
                   <option value="3">5</option>
                   <option value="3">7</option>
-
-
                 </select>
-                         
-               </div>
-               
-               
+
+              </div>
+
+
 
 
               <div class="buton">
@@ -124,9 +129,10 @@ export default function TourPage() {
               })
             }
           </div>
-          <div className='hotels'>
+          <div className='tour'>
             <span>Book Your&nbsp;</span>
-            <span>Tour &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span>Tour</span>
+            <br /><br />
 
           </div>
 
@@ -134,43 +140,45 @@ export default function TourPage() {
 
       </section>
 
-      <div className='hotel-filter'>
+      <div className='tour-filter'>
         <div className='city'>
           <select>
-            <option selected>Select your City</option>
-            <option value="1">Swat</option>
-            <option value="2">Hunza</option>
-            <option value="3">Muree</option>
-            <option value="4">Islamabad</option>
+            <option selected>Select Destination City</option>
+            <option value="1">From Swat to Islamabad</option>
+            <option value="2">From Lahore to Hunza</option>
+            <option value="3">From Lahore to Muree</option>
+            <option value="4">From Lahore to Islamabad</option>
           </select>
         </div>
         <div className='reviews'>
           <span>Top Reviews</span>
         </div>
-        
+
         <div className='hotel-type'>
           <select>
-            <option selected>Restaurant Type</option>
-            <option value="1">3 Stars</option>
-            <option value="2">4 Stars</option>
-            <option value="3">5 Stars</option>
+            <option selected>Tour Days</option>
+            <option value="1">1 Day</option>
+            <option value="2">3 Days</option>
+            <option value="3">5 Days</option>
+            <option value="3">7 Days</option>
+
 
           </select>
 
         </div>
         <div className='price'>
-          <span>Nearest First</span>
+          <span>Lowest Price</span>
         </div>
 
       </div>
       <div className='filtered-hotels'>
-            {
-              filterTourData.map((filterTourData) => {
-                return (<FilteredTour key={filterTourData.id} filterTourData={filterTourData} />)
-              })
-}
+        {
+          filterTourData.map((filterTourData) => {
+            return (<FilteredTour key={filterTourData.id} filterTourData={filterTourData} />)
+          })
+        }
 
-          </div>
+      </div>
       <Footer />
     </>
 

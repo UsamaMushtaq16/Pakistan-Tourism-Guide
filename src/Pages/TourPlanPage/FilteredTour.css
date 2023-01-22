@@ -36,8 +36,7 @@
 
 .right-div .reviews-div{
     display: flex;
-    justify-content: left;
-    color: rgb(0, 0, 0);  
+    justify-content: left; 
 }
 
 .right-div .reviews-div .rate p{
@@ -88,8 +87,9 @@
     color: #000;
 }
 
-.services p{
+.services .duration{
     margin: 0px;
+    font-weight: bold;
 }
 .services p:nth-child(2){
     color: #04736A;
@@ -127,4 +127,8 @@
 .rest-time-text{
     margin-top: 4px;
     margin-left: 10px;
+}
+
+.right-div .t-des span{
+    font-size: 19px;
 }

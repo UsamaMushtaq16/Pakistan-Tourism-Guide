@@ -21,9 +21,9 @@ const FilteredTour = ({ filterTourData }) => {
             </div>
             <div className="right-div">
                 <h2>{filterTourData.agencyName}</h2>
-                <p>
+                <p className="t-des">
                     <span><MdLocationOn size={25} /></span>
-                    <span>{filterTourData.location}</span>
+                    <span>{filterTourData.description}</span>
                 </p>
                 <div className="reviews-div">
 
@@ -38,18 +38,17 @@ const FilteredTour = ({ filterTourData }) => {
 
                 </div>
                 <div className="services">
-                    <p>Free cancellation</p>
-                    <p>Separate hall for families</p>
+                    <p className="duration">{filterTourData.duration}</p>
+                    <p>Departure at 8:00 PM every Tuesday & Friday</p>
                 </div>
 
                 <div className="rest-butn">
                     <div className="rest-time">
 
                         
-                            <span><h3>Open :</h3></span>
-                            <span className='rest-time-text'>{filterTourData.time}</span>
-                        
-
+                            <span><h3>{filterTourData.price}</h3></span>
+                            <span className='rest-time-text'>per person</span>
+                
                     </div>
                     <Link to="/restaurantdetail"><button>View Details</button></Link>
                 </div>

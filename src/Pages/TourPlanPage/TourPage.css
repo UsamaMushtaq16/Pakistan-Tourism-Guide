@@ -1,5 +1,5 @@
-.Container-restaurant{
-    background-image: url("../../assets/HotelsAssets/RestaurantHeader.jpg");
+.Container-tour{
+    background-image: url("../../assets/TourAssets/tour-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,7 +24,7 @@
 
 }
 .tour-form-sec{
-    background-color: rgba(0, 0, 0, 0.714);
+    background-color:  #092d2896;
     padding: 10px 30px;
     border-radius: 10px;
 }
@@ -133,37 +133,34 @@
 .action-div .action-button-div .right-btn{
   margin-right: 0; 
 }
-.hotels{
+.tour{
     margin-top: 50px;
-    margin-bottom: 50px;
     width: 70%;
 }
-.hotels span{
+.tour span{
     color: #333333;
     font-size: 25px;
     font-weight: bold;
     float: left;
 }
-.hotels span:first-child{
+.tour span:first-child{
     color: #04736A;
 }
  
-.hotel-filter{
+.tour-filter{
     height: 50px;
     border: 2px solid black;
     border-radius: 8px;  
-     
     width: 70%;
     text-align: center;
-    margin-top: 100px;
-    margin: auto;
+    margin: 0px auto;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
   font-size: 17px;
 }
 
-.hotel-filter select{
+.tour-filter select{
     border: none;
 }
 .filtered-hotels{

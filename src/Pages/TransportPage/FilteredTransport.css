@@ -1,0 +1,144 @@
+.hotel-card{
+    display: flex;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.left-div {
+    width: 40%;
+    height: 300px; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.left-div .feature-tag{
+    display: block;
+    float: right;
+    right: 0;
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 2px 20px;
+    background: #C90012;
+    color: #fff;
+}
+
+.disable-feature-tag{
+    display: block;
+    float: right;
+    right: 0;
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 2px 20px;
+}
+
+.right-div .reviews-div{
+    display: flex;
+    justify-content: left; 
+}
+
+.right-div .reviews-div .rate p{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 3px;
+    columns: black;
+}
+.review-right{
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+.review-right .reviews-p {
+    font-size: 12px;
+    color: #78696D;
+    margin: 0px;
+} 
+
+.right-div{
+    padding: 20px 30px;
+    height: 300px;
+    width: 60%;
+    text-align: left;
+}
+
+
+.right-div p{
+    color: #78696D;
+    font-size: 17px;
+}
+
+.right-div p span svg{
+    fill: #000;
+}
+
+.right-div svg{
+    fill: #BEA232;
+}
+
+.right-div h2{
+    color: #fff;
+}
+
+.right-div h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+.services .duration{
+    margin: 0px;
+    font-weight: bold;
+}
+.services p:nth-child(2){
+    color: #04736A;
+    margin: 0px;
+}
+
+
+.rest-butn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rest-butn button{
+    background-color: #04736A;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.rest-time{
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+.rest-time span h3{
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+.rest-time-text{
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.right-div .t-des span{
+    font-size: 19px;
+}
+
+.right-div .trans-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-div .trans-name p{
+    margin-top: 10px;
+    font-size: 19px;
+}

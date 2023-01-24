@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import TourCard from "./TourCard";
 import tourData from "./tourData";
 import "./Tour.css";
+import { Link } from "react-router-dom";
 
 const Tour = () => {
   const [start, setStart] = useState(0);
@@ -88,7 +89,7 @@ const Tour = () => {
         })}
       </div>
       <div className="tour-view-btn">
-        <button>View All</button>
+        <Link to='/tour'><button>View All</button></Link>
       </div>
     </section>
   );

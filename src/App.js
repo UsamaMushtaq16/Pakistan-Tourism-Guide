@@ -12,6 +12,8 @@ import RestaurantBooking from "./Pages/RestaurantBooking/RestaurantBooking";
 import TourPage from "./Pages/TourPlanPage/TourPage";
 import TourDetail from "./Pages/TourDetail/TourDetail";
 import TourBooking from "./Pages/TourBooking/TourBooking";
+import TransportPage from "./Pages/TransportPage/TransportPage";
+import TransportBooking from "./Pages/TransportBooking/TransportBooking";
 
 
 function App() {
@@ -32,6 +34,9 @@ function App() {
             <Route path="/tour" element={<TourPage/>} />
             <Route path="/tourdetail" element={<TourDetail/>} />
             <Route path="/tourbooking" element={<TourBooking/>}/>
+            <Route path="/transport" element={<TransportPage/>} />
+            <Route path="/transportBooking" element={<TransportBooking/>}/>
+
           </Route>
         </Routes>
       </BrowserRouter>

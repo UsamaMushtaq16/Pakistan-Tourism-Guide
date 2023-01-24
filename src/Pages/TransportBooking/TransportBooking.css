@@ -1,0 +1,35 @@
+.booking-main{
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.booking-main .booking-head{
+    text-align: center;
+}
+.booking-main .booking-head span{
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+    
+}
+.booking-main .booking-head span:first-child{
+    color: #04736A;
+    
+}
+.booking-main p{
+    font-size: 18px;
+}
+
+.booking-main .booking-form .sbmt{
+    background-color: #04736A;
+    color: white;
+    padding: 5px 20px;
+    width: 100%;
+    font-size: 18px;
+
+}
+.booking-form label{
+    font-size: 18px;
+}

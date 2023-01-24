@@ -50,7 +50,7 @@ const FilteredTour = ({ filterTourData }) => {
                             <span className='rest-time-text'>per person</span>
                 
                     </div>
-                    <Link to="/restaurantdetail"><button>View Details</button></Link>
+                    <Link to="/tourdetail"><button>View Details</button></Link>
                 </div>
             </div>
         </div>

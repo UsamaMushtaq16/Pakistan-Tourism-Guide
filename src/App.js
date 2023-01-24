@@ -10,6 +10,8 @@ import RestaurantPage from "./Pages/RestaurantPage/RestaurantPage";
 import RestaurantDetail from "./Pages/RestaurantDetail/RestaurantDetail";
 import RestaurantBooking from "./Pages/RestaurantBooking/RestaurantBooking";
 import TourPage from "./Pages/TourPlanPage/TourPage";
+import TourDetail from "./Pages/TourDetail/TourDetail";
+import TourBooking from "./Pages/TourBooking/TourBooking";
 
 
 function App() {
@@ -28,9 +30,8 @@ function App() {
             <Route path="/restaurantdetail" element={<RestaurantDetail/>} />
             <Route path="/restaurantbooking" element={<RestaurantBooking/>} />
             <Route path="/tour" element={<TourPage/>} />
-
-
-
+            <Route path="/tourdetail" element={<TourDetail/>} />
+            <Route path="/tourbooking" element={<TourBooking/>}/>
           </Route>
         </Routes>
       </BrowserRouter>

@@ -1,0 +1,255 @@
+.top-sec{
+    display: flex;
+    justify-content:space-between;
+}
+.top-sec .imgs-left img{
+    width: 700px;
+    height: 465px;
+    object-fit: cover;
+}
+
+.top-sec .imgs-right{
+    display: flex;
+    justify-content:space-between;
+
+    
+}
+.top-sec .imgs-right img{
+    width: 100%;
+    height: 232px;
+    object-fit: cover;
+    
+    
+} 
+.top-sec .imgs-right .img-top{
+    margin-left: 2px;
+}
+
+
+.properties{
+    display: flex;
+    margin:  auto;
+    width: 70%;
+    margin-top: -30px;
+}
+
+.properties-left{
+    width: 70%;
+    background-color: rgb(236, 236, 236);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 60px;
+}
+
+.properties-left h2{
+    color: rgb(40, 40, 40);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.properties-left h2 span:first-child{
+    color: #04736A;
+}
+
+
+.services-main{
+    display: flex;
+}
+
+.services-main .service{
+    padding: 20px;
+    font-size: 17px;
+}
+.services-main .service li{
+  
+        list-style-type:circle;
+    
+}
+.properties-right{
+    width: 30%;
+    background-color: #04736A;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 40px;
+    
+}
+.properties-right p{
+    color: white;
+    font-size: 26px;
+    margin-top: 80px;
+    
+}
+.policy{
+    background-color: #002820;
+    width: 100%;
+    height: 450px;
+    padding-top: 40px;
+    margin: 70px 0px;
+
+}
+.policy h2{
+    color: white;
+    font-size: 38px;
+    width: 60%;
+    margin: auto;
+}
+.policy .policy-main{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    padding-top: 20px;
+}
+
+.policy-main span{
+    color:rgb(221, 221, 221) ;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+.policy-main .policy-left h3{
+    color: white;
+    font-size: 22px;
+    line-height: 1.5;
+   
+
+}
+
+.policy-main .policy-left p{
+    color: rgb(221, 221, 221);
+    font-size: 15px;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+.policy-main .policy-right{
+    padding-left: 150px;
+}
+.policy-main .policy-right h3{
+    color: white;
+    font-size: 22px;
+    line-height: 1.5;
+    
+
+}
+
+.policy-main .policy-right p{
+    color: rgb(221, 221, 221);
+    font-size: 15px;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+
+.policy-main .policy-left li{
+    color: rgb(221, 221, 221);
+    font-size: 15px;
+    list-style-type:circle;
+}
+.recommended-tour{
+    margin-top: 30px;
+}
+
+.content{
+    display: block;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+ 
+    
+}
+
+.action-div{
+    display: block;
+    text-align: center;
+}
+
+.action-div .sorting-div{
+    float: left;
+}
+.action-div .sorting-div span{
+    color: #333333;
+    font-size: 25px;
+    font-weight: bold;
+}
+.action-div .sorting-div span:first-child{
+    color: #04736A;
+}
+
+.action-div .action-button-div{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    padding-right: 0;
+}
+
+
+.action-div .action-button-div .action-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #04736A;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+
+
+.action-div .action-button-div .disable-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #002820;
+    color: #fff;
+    margin:  10px 5px;
+}
+
+.plans-grid{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.plans-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.plans-slider-dot{
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    border: 2px solid #04736A;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.plans-slider-active-dot{
+    height: 13px;
+    width: 13px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background: #04736A;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.action-div .action-button-div .left-btn{
+    
+    left: 20px;
+}
+
+.action-div .action-button-div .right-btn{
+  margin-right: 0; 
+}
+

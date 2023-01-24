@@ -1,0 +1,102 @@
+.main-sec{
+    width: 70%;
+    margin: 70px auto;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-sec .top h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+
+.top button{
+    background-color: #04736A;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 12px 25px;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main-sec .review {
+    display: flex;
+    justify-content: left;
+    color: rgb(0, 0, 0);  
+}
+.main-sec .review .rte p{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 5px;
+    columns: black;
+}
+
+.main-sec .review--right {
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+.main-sec .review--right p{
+    font-size: 12px;
+    color: #78696D;
+    margin: 0px;
+} 
+
+.main-sec p{
+    color: #78696D;
+    font-size: 17px;
+}
+
+.main-sec p span svg{
+    fill: #000;
+}
+
+.main-sec svg{
+    fill: #BEA232;
+}
+.main-sec .price{
+    display: flex;
+}
+.main-sec .price h3{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    margin-right: 4px;
+    margin-top: 15px;
+}
+ 
+.main-sec .price p{
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+
+.main-sec .desc{
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-sec .desc span:first-child{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.td-duration h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+.td-duration p{
+    color: #04736A;
+    font-size: 17px;
+    margin-bottom: -5px;
+}
+.main-sec .td-description{
+    font-size: 20px;
+}

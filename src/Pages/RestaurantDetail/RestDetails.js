@@ -4,8 +4,6 @@ import Stars from "../HotelPage/Stars";
 import { Link } from "react-router-dom";
 
 
-
-
 const RestDetails = ({ restDetailedData }) => {
 
 

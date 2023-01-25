@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import placeData from "./placeData";
 import PlaceCard from "./PlaceCard";
 import {AiOutlineLeft, AiOutlineRight} from 'react-icons/ai'
+import { Link } from "react-router-dom";
 
 const WhereToGo = () => {
   const [start, setStart] = useState(0);
@@ -80,7 +81,7 @@ const WhereToGo = () => {
         }
       </div>
       <div className="place-view-btn">
-        <button>View All</button>
+        <Link to='/places'><button>View All</button></Link>
       </div>
     </section>
   );

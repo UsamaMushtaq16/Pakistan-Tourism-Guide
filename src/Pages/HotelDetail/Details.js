@@ -2,11 +2,6 @@ import { MdLocationOn } from "react-icons/md";
 import "./Details.css";
 import Stars from "../HotelPage/Stars";
 import { Link } from "react-router-dom";
-import React from "react";
-import ReactDOM from "react-dom";
-
-
-
 
 const Details = ({ hotelDetailedData }) => {
 

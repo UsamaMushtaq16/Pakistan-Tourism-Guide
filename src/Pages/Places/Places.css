@@ -1,0 +1,58 @@
+.where-to-go{
+    position: relative;
+}
+
+.content{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.content .p-places-heading{
+    font-size: 40px;
+    margin-top: -10px;
+}
+
+.content .places-heading span{
+    color: #333333;
+}
+
+.content .p-places-heading span:first-child{
+    color: #04736A;
+}
+
+.content p{
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+ 
+
+.p-places-grid{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 80px;
+    
+}
+ 
+
+.place-view-btn{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.place-view-btn button{
+    background: #002820;;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px 50px;
+    border-radius: 30px;
+    border: #002820;
+    text-align: center;
+}

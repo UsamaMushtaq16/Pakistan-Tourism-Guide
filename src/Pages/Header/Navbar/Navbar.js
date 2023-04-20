@@ -1,7 +1,6 @@
 import React from "react";
 import './Navbar.css'
 import footerLogo from '../../../assets/FooterAssets/Logo1.png'
-import dropDown from '../../../assets/HomeAssets/dropDown1.png'
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -25,12 +24,7 @@ const Navbar = () => {
           <Link to="/transport">Transport</Link>
         </li>
         <li>
-          <Link to="/">
-            <span>More</span>
-            <span>
-              <img src={dropDown} alt="" />
-            </span>
-          </Link>
+           <><Link to='/places'>Places</Link></>
         </li>
       </ul>
     </div>

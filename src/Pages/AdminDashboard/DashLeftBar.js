@@ -7,7 +7,7 @@ export default function DashLeftBar() {
     <div class="left-sidebar">
                     <ul>
                         <li><Link to="/admin">Dashboard</Link></li>
-                        <li><Link to="/admin/hotels">Hotels</Link></li>
+                        <li><Link to="/admin/hotels">Hotels</Link></li> 
                         <li><Link to="/admin/restaurants">Restaurants</Link></li>
                         <li><Link to="/admin/tour-agency">Tour Agencies</Link></li>
                         <li><Link to="/admin/transport">Transport</Link></li>

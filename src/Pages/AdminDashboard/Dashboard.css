@@ -14,19 +14,28 @@
     flex-wrap: wrap;
     margin-left: -10px;
 }
+.box-container a{
+    text-decoration: none;
+}
 .box{
     width: 250px;
     height: 100px;
     border-radius: 30px; 
     background-color: #04736A;
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items: center;
     margin: 10px 10px;
+    padding: 0px 20px;
+    text-decoration: none;
 }
 
-.box h2{
+.box h4{
     font-size: 23px;
+    color: white;
+}
+.box h2{
+    font-size: 40px;
     color: white;
 }
 

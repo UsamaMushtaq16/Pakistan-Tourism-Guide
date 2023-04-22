@@ -15,6 +15,13 @@ import TourBooking from "./Pages/TourBooking/TourBooking";
 import TransportPage from "./Pages/TransportPage/TransportPage";
 import TransportBooking from "./Pages/TransportBooking/TransportBooking";
 import Places from "./Pages/Places/Places";
+import AdminDashboard from "./Pages/AdminDashboard/AdminDashboard";
+import AdminHotel from "./Pages/AdminDashboard/AdminHotel";
+import AdminRestaurant from "./Pages/AdminDashboard/AdminRestaurant";
+import AdminTourAgency from "./Pages/AdminDashboard/AdminTourAgency";
+import AdminTransport from "./Pages/AdminDashboard/AdminTransport";
+import AdminTouristGuide from "./Pages/AdminDashboard/AdminTouristGuide";
+import AdminUser from "./Pages/AdminDashboard/AdminUser";
 
 
 function App() {
@@ -38,6 +45,14 @@ function App() {
             <Route path="/transport" element={<TransportPage/>} />
             <Route path="/transportBooking" element={<TransportBooking/>}/>
             <Route path="/places" element={<Places/>}/>
+            <Route path="/admin" element={<AdminDashboard/>}/>
+            <Route path="/admin/hotels" element={<AdminHotel/>}/>
+            <Route path="/admin/restaurants" element={<AdminRestaurant/>}/>
+            <Route path="/admin/tour-agency" element={<AdminTourAgency/>}/>
+            <Route path="/admin/transport" element={<AdminTransport/>}/>
+            <Route path="/admin/tourist-guide" element={<AdminTouristGuide/>}/>
+            <Route path="/admin/users" element={<AdminUser/>}/>
+
 
           </Route>
         </Routes>

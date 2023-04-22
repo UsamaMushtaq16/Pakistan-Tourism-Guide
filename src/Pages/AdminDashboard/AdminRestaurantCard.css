@@ -1,0 +1,68 @@
+.admin-restaurant-card-main{
+    display: flex;
+    background-color: white;
+    margin: 15px 0px;
+    border-radius: 17px;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 50px;
+   
+}
+
+.admin-restaurant-card-image img{
+    width: 70px;
+    height: 70px;
+    border-radius: 180px;
+    
+}
+
+.admin-restaurant-card-detail{
+    
+    margin-top: 10px;
+    margin-bottom: -5px;
+    margin-left: -390px;
+    /* padding: 10px 0px ; */
+}
+.admin-restaurant-card-detail h3{
+    font-size: 25px;
+    color: #002820;
+}
+.admin-restaurant-card-detail p{
+    font-size: 17px;
+    color: #002820;
+}
+.admin-restaurant-card-price{
+    display: flex;
+}
+.admin-restaurant-card-price h4{
+    font-size: 27px;
+    color: #002820;
+}
+.admin-restaurant-card-price span{
+    font-size: 14px;
+    color: #002820;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.admin-restaurant-card-main button{
+    background-color: #04736A;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 15px;
+}
+.admin-restaurant-card-main .admin-restaurant-card-delete{
+    background-color: #DC3545;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 15px;
+}
+.admin-restaurant-card-button{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}

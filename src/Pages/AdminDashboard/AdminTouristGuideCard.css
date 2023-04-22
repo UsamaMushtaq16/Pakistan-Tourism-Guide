@@ -1,0 +1,76 @@
+.admin-touristGuide-card-main{
+    display: flex;
+    background-color: white;
+    margin: 15px 0px;
+    border-radius: 17px;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 20px;
+   
+}
+
+.admin-touristGuide-card-image img{
+    width: 70px;
+    height: 70px;
+    border-radius: 180px;
+    
+}
+
+.admin-touristGuide-card-detail{
+    
+    margin-top: 10px;
+    margin-bottom: -5px;
+    margin-left: -40px;
+     width: 300px;
+    /* padding: 10px 0px ; */
+}
+.admin-touristGuide-card-detail h3{
+    font-size: 25px;
+    color: #002820;
+}
+.admin-touristGuide-card-detail p{
+    font-size: 17px;
+    color: #002820;
+}
+.admin-touristGuide-card-duration p{
+    font-size: 20px;
+    color: #002820;
+    margin-top: 15px;
+}
+.admin-touristGuide-card-price{
+    display: flex;
+}
+
+.admin-touristGuide-card-price h4{
+    font-size: 23px;
+    color: #002820;
+    margin-top: 10px;
+}
+
+.admin-touristGuide-card-price span{
+    font-size: 14px;
+    color: #002820;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.admin-touristGuide-card-main button{
+    background-color: #04736A;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 15px;
+}
+.admin-touristGuide-card-main .admin-touristGuide-card-delete{
+    background-color: #DC3545;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 15px;
+}
+.admin-touristGuide-card-button{
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}

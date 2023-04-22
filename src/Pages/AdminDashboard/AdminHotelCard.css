@@ -1,0 +1,62 @@
+.admin-hotel-card-main{
+    display: flex;
+    background-color: white;
+    margin: 15px 0px;
+    border-radius: 17px;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.admin-hotel-card-image img{
+    width: 70px;
+    height: 70px;
+    border-radius: 180px;
+    
+}
+
+.admin-hotel-card-detail{
+    margin-left: -30px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    margin-right: 80px;
+    /* padding: 10px 0px ; */
+}
+.admin-hotel-card-detail h3{
+    font-size: 25px;
+    color: #002820;
+}
+.admin-hotel-card-detail p{
+    font-size: 17px;
+    color: #002820;
+}
+.admin-hotel-card-price{
+    display: flex;
+}
+.admin-hotel-card-price h4{
+    font-size: 27px;
+    color: #002820;
+}
+.admin-hotel-card-price span{
+    font-size: 14px;
+    color: #002820;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.admin-hotel-card-main button{
+    background-color: #04736A;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 15px;
+}
+.admin-hotel-card-main .admin-hotel-card-delete{
+    background-color: #DC3545;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 15px;
+}

@@ -1,0 +1,48 @@
+
+
+.left-sidebar {
+    height: 100vh;
+    width: 300px;
+    background-color: #002820;
+    color: #fff;
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+
+.left-sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left-sidebar ul li {
+    margin: 5px 0;
+}
+
+.left-sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+}
+
+.left-sidebar ul li a:hover {
+    color: #04736A;
+}
+
+.left-sidebar ul li a:active {
+    color: #04736A;
+}
+
+
+.admin-profile {
+    margin-top: 10px;
+    display: flex;
+}
+
+.logout {
+    display: flex;
+    align-items: flex-end;
+    height: 190px;
+}

@@ -1,0 +1,15 @@
+.dashTransport-container{
+
+    display: flex;
+    
+}
+.admin-transport{
+    padding: 40px 50px;
+    background-color: #EBF3F3;
+    width: 100vw;
+}
+
+.admin-transport h1{
+    font-size: 33px;
+    color: #002820;
+}

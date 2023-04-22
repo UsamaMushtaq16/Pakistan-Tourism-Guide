@@ -1,0 +1,15 @@
+.dashuser-container{
+
+    display: flex;
+    
+}
+.admin-user{
+    padding: 40px 50px;
+    background-color: #EBF3F3;
+    width: 100vw;
+}
+
+.admin-user h1{
+    font-size: 33px;
+    color: #002820;
+}

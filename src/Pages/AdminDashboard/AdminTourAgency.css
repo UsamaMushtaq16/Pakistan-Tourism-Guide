@@ -1,0 +1,15 @@
+.dashTourAgency-container{
+
+    display: flex;
+    
+}
+.admin-tourAgency{
+    padding: 40px 50px;
+    background-color: #EBF3F3;
+    width: 100vw;
+}
+
+.admin-tourAgency h1{
+    font-size: 33px;
+    color: #002820;
+}

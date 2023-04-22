@@ -1,0 +1,37 @@
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #002820;
+    color: #fff;
+    padding:0px 50px;
+    height: 90px;
+}
+
+.top-bar img {
+    /* height: 30px; */
+    width: 250px;
+}
+
+#search-bar {
+    height: 40px;
+    width: 400px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+.top-bar img.admin {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.top-bar p.admin-text {
+    margin-top: 10px;
+    padding: 0 10px;
+}

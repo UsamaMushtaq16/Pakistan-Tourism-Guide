@@ -1,0 +1,15 @@
+.dashtouristGuide-container{
+
+    display: flex;
+    
+}
+.admin-touristGuide{
+    padding: 40px 50px;
+    background-color: #EBF3F3;
+    width: 100vw;
+}
+
+.admin-touristGuide h1{
+    font-size: 33px;
+    color: #002820;
+}

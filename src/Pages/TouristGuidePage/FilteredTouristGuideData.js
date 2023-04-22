@@ -1,6 +1,6 @@
 import profile from '../../assets/TransportAssets/Profile1.jpg'
 
-const adminTouristGuideData = [
+const filteredTouristGuideData = [
     { 
         id:'1',
         name: 'Faisal Saleem',
@@ -64,4 +64,4 @@ const adminTouristGuideData = [
     }
 ]
 
-export default adminTouristGuideData;
+export default filteredTouristGuideData;

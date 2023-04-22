@@ -23,9 +23,11 @@
 
 .navbar ul li a{
     text-decoration: none;
-    font-size: 22px;
+    font-size: 21px;
     padding: 10px 5px;
     margin: auto 10px;
+ 
+    
     /* color: #333333; */
     color: white;
     border-bottom: 2px solid transparent;

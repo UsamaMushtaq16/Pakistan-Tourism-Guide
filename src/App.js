@@ -22,6 +22,8 @@ import AdminTourAgency from "./Pages/AdminDashboard/AdminTourAgency";
 import AdminTransport from "./Pages/AdminDashboard/AdminTransport";
 import AdminTouristGuide from "./Pages/AdminDashboard/AdminTouristGuide";
 import AdminUser from "./Pages/AdminDashboard/AdminUser";
+import TouristGuidePage from "./Pages/TouristGuidePage/TouristGuidePage";
+import TouristGuideBooking from "./Pages/TouristGuideBooking/TouristGuideBooking";
 
 
 function App() {
@@ -44,6 +46,8 @@ function App() {
             <Route path="/tourbooking" element={<TourBooking/>}/>
             <Route path="/transport" element={<TransportPage/>} />
             <Route path="/transportBooking" element={<TransportBooking/>}/>
+            <Route path="/tourist-guide" element={<TouristGuidePage/>}/>
+            <Route path="/tourist-guide-booking" element={<TouristGuideBooking/>}/>
             <Route path="/places" element={<Places/>}/>
             <Route path="/admin" element={<AdminDashboard/>}/>
             <Route path="/admin/hotels" element={<AdminHotel/>}/>

@@ -1,0 +1,172 @@
+.Container-tourist-guide{
+    background-image: url("../../assets/TransportAssets/pexels-tirachard-kumtanom-450062.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;    
+}
+
+.visual{
+    color: white;
+}
+.tour-Container2{
+   margin: auto;
+    width: 50%;
+    padding-top: 200px;
+}
+.tour-Container2 h1{
+    color: white;
+    font-size: 45px;
+}
+.buton{
+    text-align: right; 
+
+}
+.tourist-guide-form-sec{
+    background-color:  #131313c5;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.content{
+    display: block;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.action-div{
+    display: block;
+    text-align: center;
+}
+
+.action-div .sorting-div{
+    float: left;
+}
+.action-div .sorting-div span{
+    color: #333333;
+    font-size: 25px;
+    font-weight: bold;
+}
+.action-div .sorting-div span:first-child{
+    color: #04736A;
+}
+
+.action-div .action-button-div{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    padding-right: 0;
+}
+
+
+.action-div .action-button-div .action-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #04736A;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+
+
+.action-div .action-button-div .disable-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #002820;
+    color: #fff;
+    margin:  10px 5px;
+}
+
+.plans-grid{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.plans-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.plans-slider-dot{
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    border: 2px solid #04736A;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.plans-slider-active-dot{
+    height: 13px;
+    width: 13px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background: #04736A;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.action-div .action-button-div .left-btn{
+    
+    left: 20px;
+}
+
+.action-div .action-button-div .right-btn{
+  margin-right: 0; 
+}
+.transport{
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 230px;
+}
+.transport span{
+    color: #333333;
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+}
+.transport span:first-child{
+    color: #04736A;
+}
+ 
+.tour-filter{
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 8px;  
+    width: 70%;
+    text-align: center;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  font-size: 17px;
+}
+
+.tour-filter select{
+    border: none;
+}
+.filtered-hotels{
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 100px;
+}

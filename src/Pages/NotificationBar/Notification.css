@@ -1,10 +1,11 @@
 .notification-bar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: black;
     color: #fff;
     height: 60px;
+    padding: 0px 100px;
 }
 
 .left-bar {

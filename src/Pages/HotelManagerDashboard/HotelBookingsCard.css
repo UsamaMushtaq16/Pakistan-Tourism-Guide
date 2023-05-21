@@ -1,0 +1,42 @@
+.hotel-bookings-card{
+    background-color: white;
+    margin: 15px 0px;
+    border-radius: 17px;
+    padding: 20px 30px;
+    
+
+}
+
+.hotel-bookings-card-sec{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.hotel-user-detail{
+    display: flex;
+    justify-content: flex-start;
+    width: 33%;
+
+}
+.hotel-user-detail p{
+    font-size: 20px;
+    color: #04736A;
+  
+}
+.hotel-user-detail span{
+    font-size: 17px;
+    padding-top: 4px;
+    padding-left: 20px;
+}
+
+.hotel-user-detail button{
+    background-color: #DC3545;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 0px 10px;
+    height: 32px;
+    margin-top: 4px;
+}

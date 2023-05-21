@@ -1,0 +1,16 @@
+.transport-manager{
+    display: flex;
+    height: 90vh;
+}
+.transport-manager-main{
+    padding: 40px 50px;
+    background-color: #EBF3F3;
+    width: 100vw;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.transport-manager-main h1{
+    font-size: 33px;
+    color: #002820;
+}

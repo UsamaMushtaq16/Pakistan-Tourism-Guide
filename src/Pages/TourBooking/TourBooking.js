@@ -50,8 +50,18 @@ export default function TourBooking() {
                         </div>
                     </div>
                     <div class="mb-3">
-                        <label for="guest-room" class="form-label">Tour Plan</label>
-                        <select class="form-select" id="guest-room" required>
+                        <label for="tour" class="form-label">Tour</label>
+                        <select class="form-select" id="tour" required>
+                            <option selected>Choose...</option>
+                            <option value="1">Lahore to Swat</option>
+                            <option value="2">Lahore to Murree</option>
+                            <option value="3">Lahore to Islamabad</option>
+                            <option value="4">Lahore to Hunza</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="tour-duration" class="form-label">Tour Duration</label>
+                        <select class="form-select" id="tour-duration" required>
                             <option selected>Choose...</option>
                             <option value="1">1 Day</option>
                             <option value="2">3 Days</option>

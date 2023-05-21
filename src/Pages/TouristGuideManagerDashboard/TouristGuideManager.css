@@ -1,0 +1,16 @@
+.tourist-guide-manager{
+    display: flex;
+    height: 90vh;
+}
+.tourist-guide-manager-main{
+    padding: 40px 50px;
+    background-color: #EBF3F3;
+    width: 100vw;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.tourist-guide-manager-main h1{
+    font-size: 33px;
+    color: #002820;
+}

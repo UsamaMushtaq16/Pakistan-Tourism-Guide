@@ -58,6 +58,15 @@ export default function RestaurantBooking() {
                             <option value="3">6 Persons</option>
                         </select>
                     </div>
+                    <div class="mb-3">
+                        <label for="meal" class="form-label">Meal Time</label>
+                        <select class="form-select" id="meal" required>
+                            <option selected>Choose...</option>
+                            <option value="1">Breakfast</option>
+                            <option value="2">Lunch</option>
+                            <option value="3">Dinner</option>
+                        </select>
+                    </div>
                     
                         <div class="mb-3">
                             <label for="date" class="form-label">Date</label>

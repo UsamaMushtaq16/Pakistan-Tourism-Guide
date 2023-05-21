@@ -24,6 +24,16 @@ import AdminTouristGuide from "./Pages/AdminDashboard/AdminTouristGuide";
 import AdminUser from "./Pages/AdminDashboard/AdminUser";
 import TouristGuidePage from "./Pages/TouristGuidePage/TouristGuidePage";
 import TouristGuideBooking from "./Pages/TouristGuideBooking/TouristGuideBooking";
+import HotelManager from "./Pages/HotelManagerDashboard/HotelManager";
+import CancelledHotelBookings from "./Pages/HotelManagerDashboard/CancelledHotelBookings";
+import RestaurantManager from "./Pages/RestaurantManagerDashboard/RestaurantManager";
+import CancelledRestaurantBookings from "./Pages/RestaurantManagerDashboard/CancelledRestaurantBookings";
+import TourManager from "./Pages/TourManagerDashboard/TourManager";
+import CancelledTourBookings from "./Pages/TourManagerDashboard/CancelledTourBookings";
+import TransportManager from "./Pages/TransportManagerDashboard/TransportManager";
+import CancelledTransportBookings from "./Pages/TransportManagerDashboard/CancelledTransportBookings";
+import TouristGuideManager from "./Pages/TouristGuideManagerDashboard/TouristGuideManager";
+import CancelledTouristGuideBookings from "./Pages/TouristGuideManagerDashboard/CancelledTouristGuideBookings";
 
 
 function App() {
@@ -56,6 +66,16 @@ function App() {
             <Route path="/admin/transport" element={<AdminTransport/>}/>
             <Route path="/admin/tourist-guide" element={<AdminTouristGuide/>}/>
             <Route path="/admin/users" element={<AdminUser/>}/>
+            <Route path="/hotel-manager" element={<HotelManager/>}/>
+            <Route path="/hotel-manager/cancelled-hotel-bookings" element={<CancelledHotelBookings/>} />
+            <Route path="/restaurant-manager" element={<RestaurantManager />}/>
+            <Route path="/restaurant-manager/cancelled-restaurant-bookings" element={<CancelledRestaurantBookings />}/>
+            <Route path="/tour-manager" element={<TourManager/>}/>
+            <Route path="/tour-manager/cancelled-tour-bookings" element={<CancelledTourBookings/>}/>
+            <Route path="transport-manager" element={<TransportManager />}/>
+            <Route path="/transport-manager/cancelled-transport-bookings" element={<CancelledTransportBookings />} />
+            <Route path="/tourist-guide-manager" element={<TouristGuideManager />} />
+            <Route path="tourist-guide-manager/cancelled-tourist-guide-bookings" element={<CancelledTouristGuideBookings/>}/>
 
 
           </Route>

@@ -9,7 +9,10 @@
 
 .visual{
     color: white;
+    display: block;
 }
+ 
+  
 .Container2{
    margin: auto;
     width: 60%;

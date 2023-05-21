@@ -28,17 +28,18 @@ export default function Dashboard() {
                             <h2>30</h2>
                         </div>
                     </Link>
-                    <Link to="/admin/tourist-guide">
-                        <div className='box'>
-                            <h4>Tourist Guides</h4>
-                            <h2>20</h2>
-                        </div>
-                    </Link>
+                    
                     <Link to="/admin/transport">
                     <div className='box'>
                         <h4>Transport</h4>
                         <h2>40</h2>
                     </div>
+                    </Link>
+                    <Link to="/admin/tourist-guide">
+                        <div className='box'>
+                            <h4>Tourist Guides</h4>
+                            <h2>20</h2>
+                        </div>
                     </Link>
                     <Link to="/admin/users">
                     <div className='box'>

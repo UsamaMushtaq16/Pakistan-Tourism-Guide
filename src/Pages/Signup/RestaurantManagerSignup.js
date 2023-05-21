@@ -5,11 +5,11 @@ import googlesignup from '../../assets/Login Assets/google.png'
 import { useNavigate } from "react-router-dom";
 import { Link } from 'react-router-dom'
 
-const SignUp = () => {
+const RestaurantManagerSignup = () => {
   const navigate = useNavigate()
 
   async function verifyUser() {
-    navigate('/signup-user-info')
+    navigate('/')
   }
 
 
@@ -55,4 +55,4 @@ const SignUp = () => {
   )
 }
 
-export default SignUp
+export default RestaurantManagerSignup;

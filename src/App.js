@@ -34,6 +34,13 @@ import TransportManager from "./Pages/TransportManagerDashboard/TransportManager
 import CancelledTransportBookings from "./Pages/TransportManagerDashboard/CancelledTransportBookings";
 import TouristGuideManager from "./Pages/TouristGuideManagerDashboard/TouristGuideManager";
 import CancelledTouristGuideBookings from "./Pages/TouristGuideManagerDashboard/CancelledTouristGuideBookings";
+import HotelManagerSignup from "./Pages/Signup/HotelManagerSignup";
+import RestaurantManagerSignup from "./Pages/Signup/RestaurantManagerSignup";
+import TourAgencySignup from "./Pages/Signup/TourAgencySignup";
+import TransportAgencySignup from "./Pages/Signup/TransportAgencySignup";
+import TouristGuideSignup from "./Pages/Signup/TouristGuideSignup";
+import UserInfo from "./Pages/Signup/UserInfo";
+import HotelInfo from "./Pages/Signup/HotelInfo";
 
 
 function App() {
@@ -45,6 +52,13 @@ function App() {
             <Route path="" element={<Home/>} />
             <Route path="/login" element={<Login/>} />
             <Route path="/signup" element={<SignUp/>} />
+            <Route path="/signup-user-info" element={<UserInfo/>}/>
+            <Route path="/hotel-manager-signup" element={<HotelManagerSignup/>} />
+            <Route path="/hotel-manager-signup/hotel-info" element={<HotelInfo/>}/>
+            <Route path="restaurant-manager-signup" element={<RestaurantManagerSignup/>}/>
+            <Route path="/tour-agency-signup" element={<TourAgencySignup/>}/>
+            <Route path="/transport-agency-signup" element={<TransportAgencySignup/>}/>
+            <Route path="tourist-guide-signup" element={<TouristGuideSignup/>}/>
             <Route path="/hotel" element={<HotelPage/>} />
             <Route path="/hoteldetail" element={<HotelDetail/>} />
             <Route path="/hotelbooking" element={<HotelBooking/>} />

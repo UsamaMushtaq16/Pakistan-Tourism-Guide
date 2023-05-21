@@ -30,13 +30,14 @@ const Notification = () => {
           </span>
           <span >
             <div class="dropdown">
-              <button class="dropbtn">Register &nbsp;<i class="fa fa-caret-down"></i> </button>
+              <button >Register &nbsp;<i class="fa fa-caret-down"></i> </button>
               <div class="dropdown-content">
-                <Link to="/signup" className="lnk">Hotel Manager</Link>
                 <Link to="/signup" className="lnk">User</Link>
-                <Link to="/signup" className="lnk">Restaurant Manager</Link>
-                <Link to="/signup" className="lnk">Tour Guide</Link>
-                <Link to="/signup" className="lnk">Transport Agency</Link>
+                <Link to="/hotel-manager-signup" className="lnk">Hotel Manager</Link>
+                <Link to="/restaurant-manager-signup" className="lnk">Restaurant Manager</Link>
+                <Link to="/tour-agency-signup" className="lnk">Tour Agency</Link>
+                <Link to="/transport-agency-signup" className="lnk">Transport Agency</Link>
+                <Link to="/tourist-guide-signup" className="lnk">Tourist Guide</Link>
                </div>
             </div>
           </span>

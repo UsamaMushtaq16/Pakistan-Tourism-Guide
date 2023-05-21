@@ -4,6 +4,7 @@ import imageSlider from "./data";
 import Navbar from "./Navbar/Navbar";
 import event from "../../assets/HomeAssets/events.png";
 import help from "../../assets/HomeAssets/help.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [currentState, setCurrentState] = useState(0);
@@ -40,7 +41,7 @@ const Header = () => {
               <div className="hero-headings">
                 <p>Experience</p>
                 <h1>Pakistan</h1>
-                <button>Contact Us</button>
+                <button><Link to='/contact-us'>Contact Us</Link></button>
               </div>
               <div className="float-btn">
                 <button>

@@ -41,6 +41,7 @@ import TransportAgencySignup from "./Pages/Signup/TransportAgencySignup";
 import TouristGuideSignup from "./Pages/Signup/TouristGuideSignup";
 import UserInfo from "./Pages/Signup/UserInfo";
 import HotelInfo from "./Pages/Signup/HotelInfo";
+import ContactPage from "./Pages/ContactPage/ContactPage";
 
 
 function App() {
@@ -90,6 +91,7 @@ function App() {
             <Route path="/transport-manager/cancelled-transport-bookings" element={<CancelledTransportBookings />} />
             <Route path="/tourist-guide-manager" element={<TouristGuideManager />} />
             <Route path="tourist-guide-manager/cancelled-tourist-guide-bookings" element={<CancelledTouristGuideBookings/>}/>
+            <Route path="/contact-us" element={<ContactPage/>}/>
 
 
           </Route>

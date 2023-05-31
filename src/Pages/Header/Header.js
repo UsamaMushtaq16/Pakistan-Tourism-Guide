@@ -41,7 +41,7 @@ const Header = () => {
               <div className="hero-headings">
                 <p>Experience</p>
                 <h1>Pakistan</h1>
-                <button><Link to='/contact-us'>Contact Us</Link></button>
+                <Link to='/contact-us'> <button className="cntct-butn">Contact Us</button></Link>
               </div>
               <div className="float-btn">
                 <button>

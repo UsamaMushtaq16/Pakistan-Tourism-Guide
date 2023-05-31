@@ -28,17 +28,7 @@
     font-size: 45px;
     margin: 25px auto;
 }
-.signup-div form  option{
 
-
-    width: 380px;
-    height: 50px;
-    background: #cccccc;
-    border-style: none;
-    margin: 14px auto;
-    padding: 18px 50px;
-   
-}
 .signup-div form input{
     display: block;
     width: 380px;
@@ -100,4 +90,18 @@
 
 .account span:nth-child(2){
     text-decoration: none;
+}
+
+
+.signup-type{
+    width: 380px;
+    margin-left: 120px;
+}
+.signup-type select {
+    border-radius: 25px;
+    background: #cccccc;
+    padding: 18px 50px;
+    color: #7f7a78;
+
+
 }
